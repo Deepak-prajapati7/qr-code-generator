@@ -1,0 +1,43 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-image: url("qr.png");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+ }
+
+ #qrcode-display {
+     background: transparent;
+     padding: 20px;
+     border-radius: 10px;
+     border: 2px solid white;
+     backdrop-filter: blur(10px);
+     text-align: center;
+     align-items: center;
+ }
+
+ #qrcode {
+     margin-bottom: 10px;
+     display: inline-block;
+     width: 90%;
+     border-radius: 5px;
+     padding: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ #generate-code {
+     background-color: #0f8cfa;
+     text-decoration: solid;
+     border-radius: 5px;
+     border: none;
+     color: white;
+     font-size: 16px;
+ }
+
+ #generate-code:hover {
+     background-color: #dc0b0b;
+     cursor: pointer;
+ }
